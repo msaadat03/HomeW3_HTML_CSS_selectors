@@ -1,0 +1,123 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<style>
+  body{
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    background-color: #a5caf6;
+}
+
+h1{
+    text-align: center;
+    top: 10px;
+    color: #76adf0;
+}
+
+.mains{
+    width: 600px;
+    height: 680px;
+    background-color: white;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+
+.main{
+    margin-left: 30px;
+}
+
+
+
+.age{
+    width: 70px;
+}
+
+.boy{
+    width: 70px;
+}
+
+.ceki{
+    width: 70px;
+}
+
+.submit{
+    width: 120px;
+    height: 30px;
+    background-color: #79a5d6;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 200px;
+}
+
+.submit:hover{
+    background-color: #6a95c5;
+}
+
+
+</style>
+
+
+<body>
+    <div class="form">
+
+        <div class="mains">
+
+            <h1>Application form</h1>
+
+            <div class="main">
+
+                <form action="">
+                    <label for="name">Ad:</label><br>
+                    <input type="text"><br><br>
+
+                    <label for="lastname">Soyad:</label><br>
+                    <input type="text"><br><br>
+
+                    <label for="password">Şifrə:</label><br>
+                    <input type="password"><br><br>
+
+                    <label for="cinsiyyet">Cinsiyyəti seçin:</label><br>
+                    <label for="kisi">K</label>
+
+                    <input type="radio" name="cinsiyyet" value="kisi">
+                    <label for="qadin">Q</label>
+
+                    <input type="radio" name="cinsiyyet" value="qadin"><br><br>
+                    <label for="study">Aldiğiniz təhsilin səviyyəsi:</label><br>
+
+                    <input type="checkbox" value="orta">
+                    <label for="tehsil1"> Orta</label><br>
+
+                    <input type="checkbox" value="bakalavr">
+                    <label class="bakalvr1" for="tehsil2"> Bakalavr</label><br>
+
+                    <input type="checkbox" value="magistr">
+                    <label for="tehsil3"> Magistr</label><br>
+
+                    <input type="checkbox" value="aspirant">
+                    <label for="tehsil4"> Aspirant</label><br><br>
+
+                    <label for="yas">Yaş:</label><br>
+                    <input class="age" type="number"><br><br>
+
+                    <label for="boy">Boy:</label><br>
+                    <input class="boy" type="number"><br><br>
+
+                    <label for="ceki">Çəki:</label><br>
+                    <input class="ceki" type="number" min="0" max=""><br><br>
+
+                    <input class="submit" type="submit" value="Təsdiqlə"><br>
+                </form>
+            </div>
+        
+        </div>
+        
+        </div>
+        
+</body>
+</html>
